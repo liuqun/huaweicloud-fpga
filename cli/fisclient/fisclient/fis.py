@@ -69,7 +69,7 @@ def main():
 
     argv = [encode.convert_to_unicode(a) for a in sys.argv[1:]]
     args = parser.parse_args(argv)
-    if args.subcmd.startswith('fpga-image'):
+    if args.subcmd.startswith('fpga-image') or args.subcmd == 'get-log-file':
         config.read_config_and_verify()
     elif args.subcmd == 'help':
         args.subcommands = subcommands
