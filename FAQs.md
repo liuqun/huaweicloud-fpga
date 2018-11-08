@@ -8,7 +8,7 @@
 
 [FPGA  FAQs](#fpga)
 
-[FPGA Shell FAQs](#fpga shell) 
+[FPGA Shell FAQs](#fpga-shell) 
 
 [疑难解答](#疑难解答)
 
